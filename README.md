@@ -1,50 +1,62 @@
-# 💻 Operating Systems Lab Practicals(CSE)
+💻 Operating Systems Lab Practicals (CSE)
 
-This repository contains implementations of fundamental **Operating System concepts** performed during lab sessions. Each experiment focuses on core OS principles with practical execution using C programs and Shell scripting.
+This repository includes a collection of programs developed during Operating Systems lab sessions. The aim is to understand important OS concepts by actually implementing them using C and basic Shell scripting, instead of just studying theory.
 
----
+----
 
-## 📌 Experiments Included
+📌 Experiments Covered
 
-### 🔹 Linux & Process Management
-1. **Linux Basics**  
-   - File handling, directory navigation, and basic commands.
+🔹 Linux & Process Handling
 
-2. **Process Management**  
-   - Commands like `ps`, `top`, and `kill` to monitor and control processes.
+Linux Basics
 
-3. **Process Creation (Forking)**  
-   - Creation of parent and child processes using `fork()`.
+Practicing everyday Linux operations like file handling, navigating directories, and using common terminal commands.
 
----
+Process Management
 
-### 🔹 CPU Scheduling Algorithms
-4. **FCFS (First Come First Served)**  
-   - Non-preemptive scheduling based on arrival time.
+Observing and controlling running processes using utilities such as ps, top, and kill.
 
-5. **SJF / SRTF**  
-   - Shortest Job First (Non-preemptive)  
-   - Shortest Remaining Time First (Preemptive)
+Process Creation (Forking)
 
-6. **Priority Scheduling**  
-   - Preemptive and Non-preemptive approaches based on priority.
+Demonstrating how new processes are created in Linux using the fork() system call, including parent-child relationships.
 
----
+------
 
-### 🔹 Deadlock & Memory Management
-7. **Banker’s Algorithm**  
-   - Deadlock avoidance technique using safe state checking.
+🔹 CPU Scheduling Techniques
 
-8. **FIFO Page Replacement**  
-   - Memory management using First-In-First-Out strategy.
+FCFS (First Come First Serve)
 
----
+Simple non-preemptive scheduling where processes are executed in the order they arrive.
 
-### 🔹 Shell Scripting
-9. **Shell Basics**  
-   - Variables, input/output, and arithmetic operations in Bash.
+SJF / SRTF
 
-10. **Shell Conditional Logic**  
-   - Implementation of `if-else` statements in shell scripts.
+Shortest Job First (non-preemptive approach)
+Shortest Remaining Time First (preemptive version of SJF)
 
----
+Priority Scheduling
+
+Execution of processes based on assigned priority, implemented in both preemptive and non-preemptive forms.
+
+------
+
+🔹 Deadlock & Memory Concepts
+
+Banker’s Algorithm
+
+Simulation of deadlock avoidance by checking whether the system remains in a safe state before allocating resources.
+
+FIFO Page Replacement
+
+Managing memory pages using the First-In-First-Out technique to replace older pages first.
+
+-----
+
+🔹 Shell Scripting Basics
+
+Shell Fundamentals
+
+Writing basic scripts with variables, taking input, displaying output, and performing calculations.
+
+Conditional Statements
+
+Using if-else logic in shell scripts to make decisions based on conditions.
