@@ -1,4 +1,4 @@
-# 💻 Operating Systems Lab (CSE)
+# 💻 Operating Systems Lab Practicals(CSE)
 
 This repository contains implementations of fundamental **Operating System concepts** performed during lab sessions. Each experiment focuses on core OS principles with practical execution using C programs and Shell scripting.
 
